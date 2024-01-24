@@ -57,3 +57,10 @@ var swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     spaceBetween: 80,
   });
+
+
+  let Menu = document.getElementById("menu");
+  let FullScreen = document.getElementById("fullscr")
+  Menu.addEventListener("click",function(){
+    FullScreen.style.top = 0;
+  })
