@@ -91,7 +91,7 @@
 #center #right{
     font-size: 4rem;
     text-align: right;
-    width: lightblue;
+    width: 100%;
     line-height: 120px;
     padding: 20px 30px;
 }
@@ -366,7 +366,7 @@
 }
 #page4 #page4left{
     width: 40%;
-    padding: 0px 50px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -489,7 +489,7 @@
     align-items: center;
     border-bottom: 1px solid #6e6a6a;
     width: 95%;
-    margin: 0 auto;
+    margin: 0px;
 }
 .footerbottom{
     height: 12vh;
@@ -558,8 +558,8 @@
     #navbar{
         display: grid;
         grid-template-columns: 1fr;
-        padding: 20px 30px;
-        margin: 0 auto;
+        padding: 20px 10px;
+        margin: 0px auto;
     }
     #navbar img{
         height: 90px;
@@ -567,7 +567,7 @@
         margin: 20px auto;
     }
     #navbar ul li{
-        padding: 2px 0px;
+        padding: 2px 12px;
     }
     #navbar ul li a{
         font-size: 0.9rem;
@@ -580,19 +580,19 @@
     #center #left{
         width: 90%;
         font-size: 0.7rem;
-        padding: 10px 20px;
+        padding: 10px 10px;
         text-align: center;
-        margin: 0 auto;
+        margin: 0px auto;
     }
     #center #right{
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-align: center;
         line-height: 50px;
-        padding: 10px 30px;
-        margin: 0 auto;
+        padding: 10px 10px;
+        margin: 0px;
     }
     #page1{
-        padding: 20px 30px;
+        padding: 20px 10px;
         margin-top: 0px;
     }
     #page1 #page1color{
@@ -642,11 +642,11 @@
         display: grid;
         grid-template-columns: 1fr;
         margin: 20px 0px;
-        padding: 30px;
+        padding: 30px 10px;
     }
     #page2-bottom h1{
         width: 85%;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin: 0 auto;
     }
     #page2-bottom .page2-bottom-right{
@@ -700,16 +700,16 @@
         padding: 0px 10px;
     }
     .elem .elemleft{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .elem .elemright p{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .elem .elemright span{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }   
     #page4{
-        padding: 40px 30px ;
+        padding: 40px 10px ;
     }
     #page4 #page4innerdiv{
         padding: 30px auto;
@@ -722,11 +722,11 @@
     }
     #page4left  .ph1{
         padding: 5px 10px;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     #page4left .ph2{
         padding: 5px 10px;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     #page4left p{
         width: 95%;
@@ -741,7 +741,7 @@
     }
     #page5content .swiper {
         height: 70vh;
-        padding: 8vw 3vw;
+        padding: 8vw 1vw;
       }
       .swiper-slide {
         padding-left: 10px;
@@ -763,14 +763,14 @@
         width: 100%;    
     }
     #footertopleft{
-        width: 100%;
+        width: 90%;
         left: 10%;
         top:5%;
         text-align: start;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     #footertopright{
-        width: 100%;
+        width: 90%;
         font-size: 0.6rem;
         top: 50%;
     }
@@ -788,7 +788,10 @@
         font-size: 0.6rem;
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        margin: 10px 0px;
+    }
+    .footerbottom p{
+        margin-bottom: 10px;
     }
     #footercircle{
         position: absolute;
