@@ -1,6 +1,6 @@
 const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
-    smooth: true
+    // smooth: true
 });
 
 let Elem1 = document.querySelector("#elem1");
@@ -59,8 +59,31 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 
-  let Menu = document.getElementById("menu");
-  let FullScreen = document.getElementById("fullscr")
+  let Menu = document.querySelector("#navbar h3");
+  let FullScreen = document.querySelector("#fullscr");
+  let NavImg = document.querySelector("#navbar img");
+  var Flag = 0;
+
   Menu.addEventListener("click",function(){
-    FullScreen.style.top = 0;
-  })
+    if(Flag == 0){
+        FullScreen.style.top = 0;
+        Flag = 1;
+    }else{
+        FullScreen.style.top = "-100%";
+        Flag = 0;
+    }
+  });
+
+
+let Cross = document.getElementById("cross");
+Cross.addEventListener("click",function(){
+    FullScreen.style.display = 'none';
+    window.location.reload();
+})  
+
+
+
+let Loader = document.getElementById("loader");
+setTimeout(() => {
+    Loader.style.top = "-100%";
+},4000);
