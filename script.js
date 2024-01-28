@@ -1,7 +1,7 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    // smooth: true
-});
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector("#main"),
+//     smooth: true
+// });
 
 let Elem1 = document.querySelector("#elem1");
 let ElemC = document.querySelector("#elemcontainer");
@@ -50,13 +50,6 @@ Design3.addEventListener("click",function(){
     Design3.style.transition = "all ease 0.4s";
 });
 
-
-// Swiper JS Code
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: "auto",
-    centeredSlides: true,
-    spaceBetween: 80,
-  });
 
 
   let Menu = document.querySelector("#navbar h3");

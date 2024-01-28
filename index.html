@@ -245,6 +245,7 @@
                     </p>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
               </div>
 
         </div>
@@ -276,7 +277,7 @@
             <div id="footertopright">
                 <p>Get industry insights and creative inspiration straight to your inbox.</p>
                 <form>
-                    <input type="text" placeholder="Email Address">
+                    <input type="text" id="email" placeholder="Email Address">
                     &RightArrow;
                 </form>
             </div>
@@ -302,5 +303,18 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
      <script src="script.js"></script>
+
+     <script>
+        // Swiper Js Code 
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+    });
+     </script>
+
     </body>
 </html>
